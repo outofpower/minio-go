@@ -21,7 +21,7 @@ package minio
 
 // absMinPartSize - absolute minimum part size (5 MiB) below which
 // a part in a multipart upload may not be uploaded.
-const absMinPartSize = 1024 * 1024 * 5
+const absMinPartSize = 1024 * 1024
 
 // minPartSize - minimum part size 128MiB per object after which
 // putObject behaves internally as multipart.
